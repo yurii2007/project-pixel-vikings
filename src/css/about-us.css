@@ -1,14 +1,80 @@
 .about-us {
+  color: var(--blue-font);
+  background-color: var( --light-blue);
 }
-.about-us-title {   
+
+.about-us-div {
+    margin-right: 16px;
+    margin-left: 16px;
 }
+
+.about-us-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  background-color: var(--white-color);
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 124px;
+}
+
+.about-us-title::before {
+  content: '';
+  display: inline-block;
+  top: 50%;
+  background-color: var(--blue-font);
+  width: 30px;
+  height: 1px;
+  transform: translateY(50%);
+  margin-right: 10px;
+}
+
 .about-us-subtitle {
+  font-size: 28px;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-weight: normal;
+  display: flex;
+  width: 343px;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
+
 .about-us-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+   margin-bottom: 30px;
 }
+
 .about-us-features {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.list {
+
+.list-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
+
 .our-features-item {
+}
+
+.features-item-title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 75px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.about-us-image {
+    
 }
