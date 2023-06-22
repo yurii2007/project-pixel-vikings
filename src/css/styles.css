@@ -1,4 +1,6 @@
 @import url('./reset.css');
+@import url('./root.css');
+@import url('./body.css');
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./about-us.css');
@@ -8,24 +10,3 @@
 @import url('./client-reviews.css');
 @import url('./contacts.css');
 @import url('./footer.css');
-
-:root {
-    --light-blue: #E5E5E5;
-    --blue-font: #0A224A;
-    --white-color: #ffffff;
-    --grey-color: #D9D9D9;
-    --dark-gray-clr: #B6B6B6;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
