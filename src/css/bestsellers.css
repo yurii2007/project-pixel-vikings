@@ -1,0 +1,11 @@
+* {
+    outline: dashed red;
+}
+.bestsellerSection{
+    max-width: 375px;
+    margin: 0 auto;
+}
+.containerBestseller{
+   width: 347px;
+   padding: 0 16px;
+}
