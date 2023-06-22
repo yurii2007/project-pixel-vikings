@@ -33,3 +33,12 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.button {
+    background-color: var(--blue-font);
+    padding: 12px 65px;
+    border: transparent;
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
