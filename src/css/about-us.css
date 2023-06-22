@@ -1,11 +1,44 @@
 .about-us {
   color: var(--blue-font);
-  background-color: var( --light-blue);
+  background-color: var(--light-blue);
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    background-color: var(--white-color);
+  }
 }
 
 .about-us-div {
-    margin-right: 16px;
-    margin-left: 16px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-div {
+    background-color: var(--light-blue);
+    padding-top: 32px;
+    padding-bottom: 36px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-div {
+    background-color: var(--white-color);
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-desktop {
+    background-color: var(--light-blue);
+    padding-top: 36px;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-bottom: 37px;
+  }
 }
 
 .about-us-title {
@@ -17,6 +50,19 @@
   align-items: center;
   margin-bottom: 30px;
   width: 124px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-title {
+    background-color: var(--light-blue);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-title {
+    display: flex;
+    margin-bottom: 30px;
+  }
 }
 
 .about-us-title::before {
@@ -41,10 +87,42 @@
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .about-us-subtitle {
+    width: 576px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-subtitle {
+    width: 622px;
+    font-size: 32px;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+}
+
 .about-us-paragraph {
   font-size: 16px;
   line-height: 24px;
-   margin-bottom: 30px;
+  margin-bottom: 30px;
+  width: 344px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-paragraph {
+    width: 576px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-paragraph {
+    width: 622px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
 }
 
 .about-us-features {
@@ -56,6 +134,12 @@
   margin-right: auto;
 }
 
+@media screen and (min-width: 768px) {
+  .about-us-features {
+    width: 100%;
+  }
+}
+
 .list-features {
   display: flex;
   flex-direction: column;
@@ -64,7 +148,31 @@
   gap: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .list-features {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .our-features-item {
+}
+
+@media screen and (min-width: 768px) {
+  .our-features-item {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .our-features-item {
+       width: 170px;
+    }   
 }
 
 .features-item-title {
@@ -76,5 +184,4 @@
 }
 
 .about-us-image {
-    
 }
