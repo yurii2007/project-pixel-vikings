@@ -173,9 +173,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .our-features-item {
-       width: 170px;
-    }   
+  .our-features-item {
+    width: 170px;
+  }
 }
 
 .features-item-title {
@@ -187,6 +187,6 @@
 }
 
 .about-us-image {
-    width: 536px;
-    height: 540px;
+  width: 536px;
+  height: 540px;
 }
