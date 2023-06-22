@@ -22,11 +22,8 @@
 
 @media screen and (min-width: 768px) {
   .about-us-div {
-    background-color: var(--light-blue);
     padding-top: 32px;
     padding-bottom: 36px;
-    padding-left: 64px;
-    padding-right: 64px;
   }
 }
 
@@ -34,6 +31,18 @@
   .about-us-div {
     background-color: var(--white-color);
     display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-desktop {
+    background-color: var(--light-blue);
+    padding-bottom: 36px;
+    padding-top: 36px;
+    padding-left: 64px;
+    padding-right: 64px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 }
 
@@ -91,7 +100,6 @@
   text-transform: uppercase;
   font-weight: normal;
   display: flex;
-  width: 343px;
   flex-direction: column;
   margin-bottom: 30px;
 }
@@ -116,18 +124,15 @@
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 30px;
-  width: 344px;
 }
 
 @media screen and (min-width: 768px) {
   .about-us-paragraph {
-    width: 576px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .about-us-paragraph {
-    width: 622px;
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 30px;
@@ -193,6 +198,24 @@
 }
 
 .about-us-image {
-  width: 536px;
-  height: 540px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-image {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.about-us-picture {
+  margin: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .about-us-picture {
+    width: 100%;
+    margin: 0;
+  }
 }
