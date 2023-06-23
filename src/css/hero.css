@@ -3,7 +3,7 @@
   background-image: url(../images/mobile/hero/pic@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 140px;
+  padding-top: 228px;
   padding-bottom: 313px;
   padding-left: 16px;
   margin: 0 auto;
@@ -23,7 +23,7 @@
     background-image: none;
     min-width: 768px;
     width: 100%;
-    padding-top: 61px;
+    padding-top: 157px;
     padding-bottom: 100px;
     padding-left: 32px;
     padding-right: 32px;
@@ -34,7 +34,7 @@
   .hero {
     min-width: 1440px;
     background-image: none;
-    padding-top: 64px;
+    padding-top: 159px;
     padding-bottom: 100px;
     padding-left: 60px;
     padding-right: 60px;
@@ -126,24 +126,35 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .hero-description {
-  }
-}
-
 .button {
   background-color: var(--blue-font);
-  padding: 12px 65px;
+  padding: 13px 72px;
   border: transparent;
   color: var(--white-color);
   font-size: 16px;
   line-height: 1.5;
+  position: relative;
+  transition: 0.7s ease-in-out 1s;
+}
+.button:hover {
+  transition: 0.8s ease-in-out;
+  background: transparent;
+  color: var(--blue-font);
 }
 
-@media screen and (min-width: 1440px) {
-  .button {
-    justify-content: flex-start;
-  }
+.button:hover svg {
+  stroke-dashoffset: 0;
+}
+
+.svg-animation {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: var(--blue-font);
+  stroke-dasharray: 528;
+  stroke-dashoffset: 528;
+  transition: 1.3s ease-in-out;
 }
 
 @media screen and (min-width: 1440px) {
