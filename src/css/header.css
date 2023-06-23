@@ -3,6 +3,7 @@
   background-color: var(--light-blue);
   width: 100%;
   z-index: 900;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
 }
 
 .container-header {
@@ -82,10 +83,6 @@
   |============================
 */
 
-.burger-mobile {
-  background-color: #000;
-}
-
 .menu-container {
   position: fixed;
   top: 0;
@@ -128,6 +125,7 @@
 .modal-btn {
   width: 32px;
   height: 32px;
+  display: contents;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439.9px) {
