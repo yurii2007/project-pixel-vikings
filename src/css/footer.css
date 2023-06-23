@@ -54,6 +54,21 @@
     text-decoration: underline;
 }
 
+.footer-social-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.footer-social-item {
+   
+}
+
+.social-icons {
+    width: 28px;
+    height: 28px;
+    fill: var(--white-color);
+}
+
 .footer-desc {
 text-align: center;
 font-size: 12px;
