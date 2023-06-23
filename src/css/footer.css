@@ -1,0 +1,63 @@
+.footer-container {
+  background-color: var(--blue-font);
+  padding: 42px 0 16px;
+   color: var(--white-color);
+  font-size: 16px;
+  letter-spacing: 0.16px;
+}
+
+.logo-footer {
+  width: 100px;
+  height: 16px;
+  fill: var(--white-color);
+  margin-bottom: 42px;
+}
+
+.footer-list {
+  margin-bottom: 36px;
+}
+
+.footer-item {
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+  .footer-item {
+   
+  }
+}
+
+.footer-item:last-child {
+  margin-bottom: 0;
+}
+
+
+.schedule {
+    margin-top: 8px;
+    margin-bottom: 35px;
+}
+
+.tel-list {
+    margin-bottom: 64px;
+}
+
+.tel {
+    margin-bottom: 8px;
+}
+
+.tel:last-child {
+    margin: 0;
+}
+
+.footer-links {
+    text-decoration: underline;
+}
+
+.footer-desc {
+text-align: center;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 1.19px;
+opacity: 0.6;
+}
