@@ -1,11 +1,233 @@
-* {
-    outline: dashed red;
+*{
+    outline: dashed #0A224A;
 }
-.bestsellerSection{
+/* M_O_B_I_L_E */
+/* M_O_B_I_L_E */
+
+
+
+
+    /* SECTION */
+    .bestseller-Section{
     max-width: 375px;
     margin: 0 auto;
 }
-.containerBestseller{
-   width: 347px;
-   padding: 0 16px;
+
+
+/* CONTAINER */
+.container-Bestseller{
+ padding: 0 16px;
+}
+
+
+/* TITLE = H_3*/
+.bestseller-Title{
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--blue-font, #0A224A);
+    font-size: 28px;
+    font-family: Roboto;
+    font-weight: normal; 
+    line-height: 1.5;
+}
+/* Начало списка карточек */
+.cards-Ul {display: flex;   
+}
+/* КАРТОЧКА */
+.card-Li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+/* ТЕКСТ И ЦЕНА В КАРТОЧКЕ --------------------- */
+.bestseller-Text {
+        color: var(--blue-font, #0A224A);
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1.5;
+}
+.bestseller-Cost {
+        color: var(--blue-font, #0A224A);
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.5;
+}
+/* ТЕКСТ И ЦЕНА В КАРТОЧКЕ_________________________ */
+
+
+/* ИЗОБРАЖЕНИЕ */
+img{
+    width: 100%;
+}
+
+/* КАРТОЧКА 1 (отдельный класс) */
+.card-One {
+    padding-bottom: 24.7px;
+}
+/* КАРТОЧКА 2 (отдельный класс) */
+.card-Two {
+    padding-bottom: 24.7px;
+}
+/* КАРТОЧКА 3 (отдельный класс) */
+.card-Three {
+}
+.card-Four {
+     display: none;
+}
+/* КАРТОЧКА 5 (отдельный класс) */
+.card-Five {
+     display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1439px){
+
+            /* SECTION */
+    .bestseller-Section{
+        max-width: 768px;
+        margin: 0 auto;
+    
+    }
+
+    /* CONTAINER */
+    .container-Bestseller {
+        padding: 0 16px;
+    }
+
+
+    .bestseller-Title {
+        color: var(--blue-font, #0A224A);
+        font-size: 32px;
+        font-family: Roboto;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-weight: normal; 
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .cardsUl {display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        row-gap: 32px;
+    }
+    .card-Li {
+    }
+   
+    
+    .bestseller-Text {
+        margin-top: 15px;
+        color: var(--blue-font, #0A224A);
+        font-size: 18px;
+        font-family: Roboto;
+        line-height: 1.5;
+
+    }
+    .bestseller-Cost {
+        margin-top: 10px;
+        color: var(--blue-font, #0A224A);
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+
+    
+    
+
+    .card-One {padding-bottom:0;
+    }
+
+
+    .half-width {width: calc(50% - 35px);
+        
+    }
+    .card-Two { padding-bottom: 5px;
+    }
+    .card-Four {
+         display: block;
+    }
+    /* КАРТОЧКА 5 (отдельный класс) */
+    .card-Five {
+         display: block;
+    }.full-width {width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1440px){
+
+    .bestseller-Section {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .container-Bestseller {
+        padding: 0 175px;
+    }
+    .bestseller-Title {
+    line-height: 1.4;
+    margin-bottom: 30px;
+    }
+    .cardsUl {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: space-around;
+        row-gap: 30px;
+        column-gap: 24px;
+        
+    }
+
+    }
+.bestseller-Text {
+    }
+    .bestseller-Cost {
+    }
+    
+    .card-Li {
+        padding-bottom: 0px;
+        display: inline-block;
+        }
+    .card-One {
+        display: inline-block;
+        padding-bottom: 0px;
+    
+    
+    
+    .card-Two {
+        padding-bottom: 0;
+    }
+    .half-width {
+        display: flex;
+    }
+    .card-Three {
+    }
+    .card-Four {
+        display: block;
+    }
+    .card-Five {
+        display: block;
+    }.full-width {
+        display: flex;
+        padding-bottom: 0px;
+    }
 }
