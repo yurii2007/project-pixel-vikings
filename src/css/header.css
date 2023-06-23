@@ -1,0 +1,164 @@
+.container-header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 16px;
+  width: 100%;
+  background-color: var(--light-blue);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+    .container-header {
+    padding: 28px 32px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .container-header {
+    padding: 26px 60px;
+}
+}
+
+.logo {
+    width: 100px;
+    height: 16px;
+    fill: var(--blue-font);
+}
+
+.burger-mobile {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+    .burger-mobile {
+    width: 40px;
+    height: 40px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .burger-mobile {
+    display: none;}
+}
+
+.nav {
+    display:none;
+}
+
+@media screen and (min-width: 1440px) {
+    .nav {
+    display: block;
+    color: var(--blue-font);
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .header-list {
+    display: flex;
+    gap: 30px;
+    padding: 8px;
+    }
+}
+
+/**
+  |============================
+  | Burger menu
+  |============================
+*/
+
+.burger-mobile {
+    background-color: #000;
+}
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(-100%);   
+
+    background-color: var(--white-color);
+}
+
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 16px;
+  background-color: var(--light-blue);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+    .modal-header {
+        padding: 28px 32px;
+    }
+}
+
+.modal-btn {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+    .modal-btn {
+    width: 40px;
+    height: 40px;
+}
+}
+
+.modal-btn-icon {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+    .modal-btn-icon {
+    width: 40px;
+    height: 40px;
+}
+}
+
+.menu-list {
+  padding-top: 114px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+    .menu-list {
+    padding-top: 150px;
+}
+}
+
+
+.menu-item {
+  color: var(--blue-font);
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 17px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439.9px) {
+    .menu-item {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+}
+
+
+.menu-item:last-child {
+    margin-bottom: 0;
+}
