@@ -97,7 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25px;
+    min-width: 25px;
     height: 25px;
     border: 1px solid var(--dark-gray-clr);
 }
@@ -107,6 +107,7 @@
 .contacts-checkbox:checked + .fake-checkbox {
 
     background-color: var(--blue-font);
+    border: transparent ;
     
 }
 
