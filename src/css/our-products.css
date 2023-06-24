@@ -1,5 +1,12 @@
 .our-products-section {
   margin-top: 60px;
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-products-section {
+    margin-bottom: 100px;
+  }
 }
 
 .our-products-title {
