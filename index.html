@@ -15,8 +15,8 @@
     />
     
     <title>Minimal</title>
-    <script type="module" crossorigin src="/project-pixel-vikings/assets/index-2b05a9f2.js"></script>
-    <link rel="stylesheet" href="/project-pixel-vikings/assets/index-a411d38a.css">
+    <script type="module" crossorigin src="/project-pixel-vikings/assets/index-6ae5b77f.js"></script>
+    <link rel="stylesheet" href="/project-pixel-vikings/assets/index-b7133c6b.css">
   </head>
   <body>
     <main>
@@ -30,12 +30,12 @@
     </svg>
     <nav class="nav">
       <ul class="header-list">
-        <li class="header-item"><a href="#about-us">About us</a></li>
-        <li class="header-item"><a href="#our-products">Our products</a></li>
-        <li class="header-item"><a href="#prices">Prices</a></li>
-        <li class="header-item"><a href="#bestsellers">Bestsellers</a></li>
-        <li class="header-item"><a href="#reviews">Reviews </a></li>
-        <li class="header-item"><a href="#contacts">Contacts</a></li>
+        <li class="header-item"><a class="navigation-link" href="#about-us">About us</a></li>
+        <li class="header-item"><a class="navigation-link" href="#our-products">Our products</a></li>
+        <li class="header-item"><a class="navigation-link" href="#prices">Prices</a></li>
+        <li class="header-item"><a class="navigation-link" href="#bestsellers">Bestsellers</a></li>
+        <li class="header-item"><a class="navigation-link" href="#reviews">Reviews </a></li>
+        <li class="header-item"><a class="navigation-link" href="#contacts">Contacts</a></li>
       </ul>
     </nav>
   </div>
@@ -66,7 +66,7 @@
   </div>
 </section>
 
-      <section class="about-us">
+      <section class="about-us" id="about-us">
   <div class="container about-us-div ">
     <div class="about-us-desktop">
       <h2 class="about-us-title">About us</h2>
@@ -137,7 +137,7 @@
   </div>
 </section>
 
-      <section class="price">
+      <section class="price" id="prices">
   <div class="price-container container">
     <h2 class="visually-hidden">Chairs Tables Dressers Sofas Price.</h2>
     <ul class="price-list">
@@ -278,9 +278,10 @@
     </ul>
   </div>
 </section>
+      <section id="bestsellers">
 
-      
-      <section class="clients">
+</section>
+      <section class="clients" id="reviews">
   <div class="clients-container container">
     <h2 class="clients-tittle">Clients reviews</h2>
     <ul class="clients-list list">
@@ -467,8 +468,7 @@
     </ul>
   </div>
 </section>
-
-      <section class="contacts">
+      <section class="contacts" id="contacts">
   <div class="contacts-container container">
     <div class="contacts-tittles-wrapper">
       <h2 class="contacts-tittle">Newsletter</h2>
@@ -569,11 +569,21 @@
       <use href="/project-pixel-vikings/assets/icons-64b3123b.svg#icon-logo"></use>
     </svg>
     <ul class="footer-list">
-      <li class="footer-item"><a href="#about-us">About us</a></li>
-      <li class="footer-item"><a href="#our-products">Our products</a></li>
-      <li class="footer-item"><a href="#prices">Prices</a></li>
-      <li class="footer-item"><a href="#bestsellers">Bestsellers</a></li>
-      <li class="footer-item"><a href="#reviews">Reviews </a></li>
+      <li class="footer-item">
+        <a href="#about-us" class="navigation-link footer">About us</a>
+      </li>
+      <li class="footer-item">
+        <a href="#our-products" class="navigation-link footer">Our products</a>
+      </li>
+      <li class="footer-item">
+        <a href="#prices" class="navigation-link footer">Prices</a>
+      </li>
+      <li class="footer-item">
+        <a href="#bestsellers" class="navigation-link footer">Bestsellers</a>
+      </li>
+      <li class="footer-item">
+        <a href="#reviews" class="navigation-link footer">Reviews </a>
+      </li>
     </ul>
     <div class="footer-address">
       <a
@@ -600,6 +610,7 @@
     <ul class="footer-social-list">
       <li class="footer-social-item">
         <a
+          class="social-link"
           href="https://www.facebook.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -611,6 +622,7 @@
       </li>
       <li class="footer-social-item">
         <a
+          class="social-link"
           href="https://www.instagram.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -622,6 +634,7 @@
       </li>
       <li class="footer-social-item">
         <a
+          class="social-link"
           href="https://www.youtube.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -670,6 +683,12 @@
         <li class="menu-item"><a href="#contacts">Contacts</a></li>
       </ul>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script src="js/animation-header.js"></script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
