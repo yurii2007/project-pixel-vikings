@@ -14,7 +14,7 @@
 
 /* CONTAINER */
 .container-Bestseller{
- padding: 0 16px;
+    padding: 0 16px;
 }
 
 
@@ -30,7 +30,6 @@
 }
 /* Начало списка карточек */
 .cardsUl {
-     
     row-gap: 10px;
 }
 /* КАРТОЧКА */
@@ -43,6 +42,8 @@
     
     
 }
+
+
 
 /* ТЕКСТ И ЦЕНА В КАРТОЧКЕ --------------------- */
 .bestseller-Text {
@@ -67,15 +68,17 @@ img{
 }
 
 
+
+
+
+
 @media screen and (max-width:767px){
 
 .card-Four {
-    
      display: none;
 }
 /* КАРТОЧКА 5 (отдельный класс) */
 .card-Five {
-     
      display: none;
 }
 }
@@ -110,7 +113,8 @@ img{
         margin-bottom: 30px;
     }
 
-    .cardsUl {display: flex;
+    .cardsUl {
+        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         flex-direction: row;
@@ -149,16 +153,16 @@ img{
 
     .card-One {padding-bottom:0;
     }
-
-
-    .half-width {width: calc(50% - 35px);
-        
+    .half-width {
+        width: calc(50% - 35px);
     }
-    .card-Two { padding-bottom: 5px;
+    .card-Two { 
+        padding-bottom: 5px;
     }
     .card-Four {
          display: inline-block;
     }
+
     /* КАРТОЧКА 5 (отдельный класс) */
     .card-Five {
          display: inline-block;
@@ -186,8 +190,8 @@ img{
         padding: 0 175px;
     }
     .bestseller-Title {
-    line-height: 1.4;
-    margin-bottom: 30px;
+        line-height: 1.4;
+        margin-bottom: 30px;
     }
     .cards-Ul {
         display: flex;
@@ -200,9 +204,7 @@ img{
 
      .sector_position{
         display: inline-flex;
-        flex-wrap: wrap;  
-        
-        
+        flex-wrap: wrap;     
     }    
         
     .cardsUl{
@@ -213,26 +215,20 @@ img{
 
     }
 .bestseller-Text {
-    color: var(--blue-font, #0A224A);
-    font-size: 18px;
-    font-family: Roboto;
-    line-height: 1.5;
+        color: var(--blue-font, #0A224A);
+        font-size: 18px;
+        font-family: Roboto;
+        line-height: 1.5;
     }
     .bestseller-Cost {
         color: var(--blue-font, #0A224A);
-font-size: 18px;
-font-family: Roboto;
-font-weight: 700;
-line-height: 27px;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 27px;
     }
     
-    
-    .card-Four {
-        
-    }
-    .card-Five {
-        
-    }.full-width {
+    .full-width {
         display: flex;
         padding-bottom: 0px;
         flex-direction: column;
