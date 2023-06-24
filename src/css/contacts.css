@@ -74,8 +74,8 @@
     border: none;
     cursor:pointer;
     margin-top: 12px;
-    max-width: 224px;
-    padding: 17px 65px;
+    width: 224px;
+    padding: 13px 0px;
     background: var(--blue-font);
     color: var(--white-color);
     font-size: 16px;
@@ -97,7 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25px;
+    min-width: 25px;
     height: 25px;
     border: 1px solid var(--dark-gray-clr);
 }
@@ -107,6 +107,7 @@
 .contacts-checkbox:checked + .fake-checkbox {
 
     background-color: var(--blue-font);
+    border: transparent ;
     
 }
 
