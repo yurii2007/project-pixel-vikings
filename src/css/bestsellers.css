@@ -1,6 +1,4 @@
-*{
-    outline: dashed #0A224A;
-}
+
 /* M_O_B_I_L_E */
 /* M_O_B_I_L_E */
 
@@ -31,7 +29,9 @@
     line-height: 1.5;
 }
 /* Начало списка карточек */
-.cards-Ul {display: flex;   
+.cardsUl {
+     
+    row-gap: 10px;
 }
 /* КАРТОЧКА */
 .card-Li {
@@ -39,6 +39,9 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around;
+    row-gap: 15px;
+    
+    
 }
 
 /* ТЕКСТ И ЦЕНА В КАРТОЧКЕ --------------------- */
@@ -63,27 +66,19 @@ img{
     width: 100%;
 }
 
-/* КАРТОЧКА 1 (отдельный класс) */
-.card-One {
-    padding-bottom: 24.7px;
-}
-/* КАРТОЧКА 2 (отдельный класс) */
-.card-Two {
-    padding-bottom: 24.7px;
-}
-/* КАРТОЧКА 3 (отдельный класс) */
-.card-Three {
-}
+
+@media screen and (max-width:767px){
+
 .card-Four {
+    
      display: none;
 }
 /* КАРТОЧКА 5 (отдельный класс) */
 .card-Five {
+     
      display: none;
 }
-
-
-
+}
 
 
 
@@ -122,8 +117,6 @@ img{
         justify-content: space-between;
         row-gap: 32px;
     }
-    .card-Li {
-    }
    
     
     .bestseller-Text {
@@ -144,7 +137,14 @@ img{
     }
 
 
-    
+    .sector_position{
+        display: inline-flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap:32px ;
+    }
     
 
     .card-One {padding-bottom:0;
@@ -157,13 +157,18 @@ img{
     .card-Two { padding-bottom: 5px;
     }
     .card-Four {
-         display: block;
+         display: inline-block;
     }
     /* КАРТОЧКА 5 (отдельный класс) */
     .card-Five {
-         display: block;
-    }.full-width {width: 100%;
+         display: inline-block;
     }
+    .full-width {width: 100%;
+    }
+    .sector_position{
+        display: flex;
+        row-gap: 30px;
+    }    
 }
 
 
@@ -174,7 +179,7 @@ img{
 
 
 
-@media screen and (min-width:1440px){
+@media screen and (min-width:1440px)  {
 
     .bestseller-Section {
         max-width: 1440px;
@@ -187,47 +192,54 @@ img{
     line-height: 1.4;
     margin-bottom: 30px;
     }
-    .cardsUl {
+    .cards-Ul {
         display: flex;
         flex-wrap: nowrap;
         align-items: flex-start;
         justify-content: space-around;
-        row-gap: 30px;
         column-gap: 24px;
+    }
+
+
+     .sector_position{
+        display: flex;
+        flex-wrap: wrap;  
+        gap: 20px 25px; 
         
+    }    
+        
+    .cardsUl{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
     }
 
     }
 .bestseller-Text {
+    color: var(--blue-font, #0A224A);
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 1.5;
     }
     .bestseller-Cost {
+        color: var(--blue-font, #0A224A);
+font-size: 18px;
+font-family: Roboto;
+font-weight: 700;
+line-height: 27px;
     }
     
-    .card-Li {
-        padding-bottom: 0px;
-        display: inline-block;
-        }
-    .card-One {
-        display: inline-block;
-        padding-bottom: 0px;
     
-    
-    
-    .card-Two {
-        padding-bottom: 0;
-    }
-    .half-width {
-        display: flex;
-    }
-    .card-Three {
-    }
     .card-Four {
-        display: block;
+        
     }
     .card-Five {
-        display: block;
+        
     }.full-width {
-        display: flex;
+        display: inline-flex;
         padding-bottom: 0px;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 14px;
     }
-}
+
