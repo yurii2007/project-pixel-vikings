@@ -158,6 +158,10 @@
   |============================
 */
 
+.header-btn-menu {
+  display: contents;
+}
+
 .menu-container {
   position: fixed;
   top: 0;
