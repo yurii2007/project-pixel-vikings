@@ -138,7 +138,7 @@ img{
 
 
     .sector_position{
-        display: inline-flex;
+        display: flex;
         width: 100%;
         flex-direction: row;
         justify-content: space-between;
@@ -165,10 +165,7 @@ img{
     }
     .full-width {width: 100%;
     }
-    .sector_position{
-        display: flex;
-        row-gap: 30px;
-    }    
+     
 }
 
 
@@ -202,9 +199,9 @@ img{
 
 
      .sector_position{
-        display: flex;
+        display: inline-flex;
         flex-wrap: wrap;  
-        gap: 20px 25px; 
+        
         
     }    
         
@@ -236,10 +233,10 @@ line-height: 27px;
     .card-Five {
         
     }.full-width {
-        display: inline-flex;
+        display: flex;
         padding-bottom: 0px;
         flex-direction: column;
-        width: 100%;
+       width: 100%;
         margin-right: 14px;
     }
 
