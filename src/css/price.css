@@ -1,3 +1,14 @@
+.price-container {
+    padding-top: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    .price-container {
+        padding-top: 100px;
+    }
+}
+
+
 .price-list-item:first-child {
     border-top: 1px solid #0A224A;
 }
@@ -33,7 +44,7 @@
 }
 
 .price-list-item:hover .products-name {
-    transform: translateX(80px);
+    transform: translateX(70px);
 }
 
 .price-list-item::before {
