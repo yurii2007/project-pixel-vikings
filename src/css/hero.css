@@ -3,7 +3,7 @@
   background-image: url(../images/mobile/hero/pic@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 228px;
+  padding-top: 140px;
   padding-bottom: 313px;
   padding-left: 16px;
   margin: 0 auto;
@@ -23,7 +23,7 @@
     background-image: none;
     min-width: 768px;
     width: 100%;
-    padding-top: 157px;
+    padding-top: 64px;
     padding-bottom: 100px;
     padding-left: 32px;
     padding-right: 32px;
@@ -34,7 +34,7 @@
   .hero {
     min-width: 1440px;
     background-image: none;
-    padding-top: 159px;
+    padding-top: 64px;
     padding-bottom: 100px;
     padding-left: 60px;
     padding-right: 60px;
