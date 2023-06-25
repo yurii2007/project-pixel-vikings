@@ -1,12 +1,11 @@
 .about-us {
   color: var(--blue-font);
   background-color: var(--light-blue);
-  margin-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
   .about-us {
-    background-color: var(--white-color); 
+    background-color: var(--white-color);
     margin-bottom: 100px;
   }
 }
@@ -16,6 +15,7 @@
     background-color: var(--white-color);
     display: flex;
     align-items: center;
+    padding: 64px 0 0;
   }
 }
 

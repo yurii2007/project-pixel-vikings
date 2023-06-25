@@ -5,9 +5,7 @@
   background-repeat: no-repeat;
   padding-top: 140px;
   padding-bottom: 313px;
-  padding-left: 16px;
   margin: 0 auto;
-  max-width: 375px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -24,20 +22,15 @@
     min-width: 768px;
     width: 100%;
     padding-top: 64px;
-    padding-bottom: 100px;
     padding-left: 32px;
+    padding-bottom: 0;
     padding-right: 32px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .hero {
-    min-width: 1440px;
     background-image: none;
-    padding-top: 64px;
-    padding-bottom: 100px;
-    padding-left: 60px;
-    padding-right: 60px;
   }
 }
 
@@ -72,12 +65,10 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right top;
-    max-width: 312px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    min-width: 312px;
   }
 }
 
@@ -89,7 +80,6 @@
   color: var(--blue-font);
   font-weight: normal;
   margin-bottom: 14px;
-  min-width: 285px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439.9px) {
@@ -128,7 +118,8 @@
 
 .button {
   background-color: var(--blue-font);
-  padding: 13px 72px;
+  padding: 13px 0;
+  width: 224px;
   border: transparent;
   color: var(--white-color);
   font-size: 16px;
@@ -152,8 +143,8 @@
   top: 0;
   fill: none;
   stroke: var(--blue-font);
-  stroke-dasharray: 528;
-  stroke-dashoffset: 528;
+  stroke-dasharray: 548;
+  stroke-dashoffset: 548;
   transition: 1.3s ease-in-out;
 }
 
