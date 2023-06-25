@@ -1,13 +1,9 @@
 .about-us {
   color: var(--blue-font);
-  background-color: var(--light-blue);
 }
 
-@media screen and (min-width: 768px) {
-  .about-us {
-    background-color: var(--white-color);
-    padding: 100px 0;
-  }
+.about-us-desktop {
+    background-color: var(--light-blue);
 }
 
 @media screen and (max-width: 767px) {
@@ -16,6 +12,12 @@
   }
   .about-us-desktop {
     padding: 0 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    padding: 100px 0;
   }
 }
 
@@ -33,7 +35,6 @@
 
 @media screen and (min-width: 768px) {
   .about-us-desktop {
-    background-color: var(--light-blue);
     padding: 36px 64px;
     margin-bottom: 30px;
   }
@@ -41,7 +42,6 @@
 
 @media screen and (min-width: 1440px) {
   .about-us-desktop {
-    background-color: var(--light-blue);
     padding: 36px 69px;
     margin-bottom: 0px;
     margin-right: 24px;
@@ -52,16 +52,9 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
-  background-color: var(--light-blue);
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .about-us-title {
-    background-color: var(--light-blue);
-  }
 }
 
 .about-us-title::before {
