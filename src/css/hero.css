@@ -19,11 +19,8 @@
 @media screen and (min-width: 768px) and (max-width: 1440px) {
   .hero {
     background-image: none;
-    min-width: 768px;
     padding-top: 64px;
-    padding-left: 32px;
     padding-bottom: 0;
-    padding-right: 32px;
   }
 }
 
@@ -45,6 +42,15 @@
     height: 531px;
     margin-bottom: 32px;
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-background {
+      background-image: url(../images/tablet/hero/pic@2x.jpg),
+        url(../images/tablet/hero/pic2@2x.jpg);
+      background-size: 308px 329px, 364px 531px;
+    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -58,11 +64,20 @@
     min-width: 983px;
     margin-bottom: 0px;
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-background {
+      background-image: url(../images/desktop/hero/pic@2x.jpg),
+        url(../images/desktop/hero/pic2@2x.jpg);
+      background-size: 310px 329px, 648px 530px;
+    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .button-wrapper {
-    background-image: url(../images/desktop/hero/pic3@1x.webp);
+    background-image: url(../images/desktop/hero/pic3@1x.jpg);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right top;
@@ -70,6 +85,14 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .button-wrapper {
+      background-image: url(../images/desktop/hero/pic3@2x.jpg);
+      background-size: 312px 337px;
+    }
   }
 }
 
