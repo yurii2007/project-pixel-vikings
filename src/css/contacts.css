@@ -1,17 +1,13 @@
 
 .contacts{
    
-    padding: 64px 16px;
-    margin: 0 auto;
+    padding: 64px 0px;
+    
 }
 
-.contacts-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
+.contacts-tittles-wrapper {
+    margin-bottom: 30px;
 }
-
 
 .contacts-tittle{
     margin-bottom: 20px;
@@ -35,17 +31,15 @@
 
 .contacts-form{
     max-width: 536px;
-    display: flex ;
-    flex-direction: column;
-    gap: 20px;
 
 }
 
 .contacts-form-imput{
     width: 100%;
     height: 50px;
-    padding: 11px 20px;
+    padding: 13px 20px;
     border: 1px solid var(--dark-gray-clr);
+    margin-bottom: 20px;
 
 }
 
@@ -67,6 +61,7 @@
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     cursor: pointer;
+    margin-bottom: 30px;
 }
 
 .contacts-send-btn{
@@ -119,6 +114,9 @@
 
 /* _________________________TABLET________________________ */
 @media screen and (min-width: 768px){
+    .contacts{
+        padding: 100px 0;
+    }
    .contacts-tittle{
      text-align: left;
    }
@@ -136,7 +134,7 @@
 /* ______________________________DESKTOP________________________ */
 @media screen and (min-width: 1440px){
     .contacts-container{
-        flex-direction: row;
+        display: flex;
         gap: 100px;
         
     }
