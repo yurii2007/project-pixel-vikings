@@ -1,13 +1,21 @@
 .about-us {
   color: var(--blue-font);
   background-color: var(--light-blue);
-  margin-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
   .about-us {
-    background-color: var(--white-color); 
-    margin-bottom: 100px;
+    background-color: var(--white-color);
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-us-div {
+    padding: 64px 0 0;
+  }
+  .about-us-desktop {
+    padding: 0 16px;
   }
 }
 
