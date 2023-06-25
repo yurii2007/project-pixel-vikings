@@ -12,31 +12,30 @@
   justify-content: space-between;
   align-items: center;
   padding: 28px 16px;
-  max-width: 375px;
-}
-
-.container {
-  min-width: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439.9px) {
   .container-header {
     padding: 28px 32px;
-    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .container-header {
     padding: 26px 60px;
-    max-width: 1440px;
   }
 }
 
 .logo {
   width: 100px;
-  height: 16px;
+  height: 14px;
   fill: var(--blue-font);
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 127px;
+  }
 }
 
 .burger-mobile {
@@ -166,7 +165,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   z-index: 999;
 
