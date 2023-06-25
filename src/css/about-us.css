@@ -6,7 +6,16 @@
 @media screen and (min-width: 768px) {
   .about-us {
     background-color: var(--white-color);
-    margin-bottom: 100px;
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-us-div {
+    padding: 64px 0 0;
+  }
+  .about-us-desktop {
+    padding: 0 16px;
   }
 }
 
@@ -15,7 +24,6 @@
     background-color: var(--white-color);
     display: flex;
     align-items: center;
-    padding: 64px 0 0;
   }
 }
 

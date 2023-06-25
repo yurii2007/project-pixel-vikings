@@ -20,7 +20,6 @@
   .hero {
     background-image: none;
     min-width: 768px;
-    width: 100%;
     padding-top: 64px;
     padding-left: 32px;
     padding-bottom: 0;
@@ -30,6 +29,8 @@
 
 @media screen and (min-width: 1440px) {
   .hero {
+    padding-top: 64px;
+    padding-bottom: 0;
     background-image: none;
   }
 }
@@ -125,10 +126,10 @@
   font-size: 16px;
   line-height: 1.5;
   position: relative;
-  transition: 0.7s ease-in-out 1s;
+  transition: 0.3s ease-in-out 0.5s;
 }
 .button:hover {
-  transition: 0.8s ease-in-out;
+  transition: 0.3s ease-in-out;
   background: transparent;
   color: var(--blue-font);
 }
@@ -145,7 +146,7 @@
   stroke: var(--blue-font);
   stroke-dasharray: 548;
   stroke-dashoffset: 548;
-  transition: 1.3s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 @media screen and (min-width: 1440px) {
