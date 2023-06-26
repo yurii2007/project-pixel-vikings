@@ -14,12 +14,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     
+    <link rel="icon" type="image/x-icon" href="/project-pixel-vikings/assets/favicon-9f3a5965.ico" />
     <title>Minimal</title>
-    <script type="module" crossorigin src="/project-pixel-vikings/assets/index-f69b9cba.js"></script>
-    <link rel="stylesheet" href="/project-pixel-vikings/assets/index-3a1e19a5.css">
+    <script type="module" crossorigin src="/project-pixel-vikings/assets/index-86324947.js"></script>
+    <link rel="stylesheet" href="/project-pixel-vikings/assets/index-57cc7747.css">
   </head>
   <body>
-      <header class="section-header">
+    <header class="section-header">
   <div class="container container-header">
     <svg class="logo" width="100" height="14">
       <use href="/project-pixel-vikings/assets/icons-64b3123b.svg#icon-logo"></use>
@@ -85,7 +86,7 @@
   </div>
 </header>
 
-     <main>
+    <main>
       <section class="hero">
   <div class="container">
     <div class="hero-tablet-wrapper">
@@ -329,77 +330,279 @@
   </div>
 </section>
 
-      <section id="bestsellers" class="bestseller-Section">
-    <div class="container-Bestseller">
-        <h3 class="bestseller-Title">bestsellers</h3>
-        
-
-        <ul class="cardsUl">
-
-
-        <li class="card-Li card-One full-width">
-            <picture>
-                <source srcset="../images/desktop/bestsellers/pic@1x.webp 1x, ../images/desktop/bestsellers/pic@2x.webp 2x" type="image/webp" />
-                <source srcset="../images/desktop/bestsellers/pic@1x.jpeg 1x, ../images/desktop/bestsellers/pic@2x.jpeg 2x" type="image/jpeg" />
-            <img  
-            src="../images/desktop/bestsellers/pic@1x.jpg" 
-            alt="Sofa and pictures">
+      <section id="bestsellers" class="bestseller">
+  <div class="container">
+    <h2 class="bestseller-title">bestsellers</h2>
+    <ul class="cardsul">
+      <li class="card-li">
+        <picture class="bestseller-picture">
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="/project-pixel-vikings/assets/pic@1x-d7baf855.webp 1x, /project-pixel-vikings/assets/pic@2x-823e9340.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./images/desktop/bestsellers/pic@1x.jpeg 1x,
+              ./images/desktop/bestsellers/pic@2x.jpeg 2x
+            "
+            type="image/jpg"
+          />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="/project-pixel-vikings/assets/pic@1x-33e06270.webp 1x, /project-pixel-vikings/assets/pic@2x-01fafc71.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/tablet/bestsellers/pic@1x.jpeg 1x,
+              ./images/tablet/bestsellers/pic@2x.jpeg 2x
+            "
+            type="image/jpg"
+          />
+          <!-- Mobile screen -->
+          <source
+            media="(max-width: 767.9px)"
+            srcset="/project-pixel-vikings/assets/pic@1x-54a7fe14.webp 1x, /project-pixel-vikings/assets/pic@2x-f0c5f83e.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767.9px)"
+            srcset="
+              ./images/mobile/bestsellers/pic@1x.jpeg 1x,
+              ./images/mobile/bestsellers/pic@2x.jpeg 2x
+            "
+            type="image/jpg"
+          />
+          <img
+            src="./images/desktop/bestsellers/pic@1x.jpeg"
+            alt="Sofa and pictures"
+          />
         </picture>
-            <p class="bestseller-Text">The modern platform bed</p>
-            <p class="bestseller-Cost">750 &#36;</p>
-        </li>
-
-
-        <!-- <li class="new-list-position"> -->
-            <ul class="sector_position">
-            <li class="card-Li card-Two half-width">
-                    <picture>
-                        <source srcset="../images/desktop/bestsellers/pic2@1x.webp 1x, ../images/desktop/bestsellers/pic2@2x.webp 2x" type="image/webp" />
-                        <source srcset="../images/desktop/bestsellers/pic2@1x.jpeg 1x, ../images/desktop/bestsellers/pic2@2x.jpeg 2x" type="image/jpeg" />
-                <img src="../images/desktop/bestsellers/pic2@1x.jpg" alt="interier Summer">
-                    </picture>
-                <p class="bestseller-Text">The Cozy Lounge Chair</p>
-            <p class="bestseller-Cost">230 &#36;</p>
-        </li>
-
-
-        <li class="card-Li card-Three half-width">
-            <picture>
-                        <source srcset="../images/desktop/bestsellers/pic3@1x.webp 1x, ../images/desktop/bestsellers/pic3@2x.webp 2x" type="image/webp" />
-                        <source srcset="../images/desktop/bestsellers/pic3@1x.jpeg 1x, ../images/desktop/bestsellers/pic3@2x.jpeg 2x" type="image/jpeg" />
-                    <img src="../images/desktop/bestsellers/pic3@1x.jpg" alt="interier minimal">
+        <p class="bestseller-Text">The modern platform bed</p>
+        <p class="bestseller-Cost">750 &#36;</p>
+      </li>
+      <li class="card-li full-width">
+        <ul class="sector-position">
+          <li class="half-width">
+            <picture class="bestseller-picture">
+              <!-- Desktop screen -->
+              <source
+                media="(min-width: 1440px)"
+                srcset="/project-pixel-vikings/assets/pic2@1x-b632c309.webp 1x, /project-pixel-vikings/assets/pic2@2x-dde7de4f.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./images/desktop/bestsellers/pic2@1x.jpeg 1x,
+                  ./images/desktop/bestsellers/pic2@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <!-- Tablet screen -->
+              <source
+                media="(min-width: 768px)"
+                srcset="/project-pixel-vikings/assets/pic2@1x-76f40a8c.webp 1x, /project-pixel-vikings/assets/pic2@2x-d6da0c95.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/tablet/bestsellers/pic2@1x.jpeg 1x,
+                  ./images/tablet/bestsellers/pic2@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <!-- Mobile screen -->
+              <source
+                media="(max-width: 767px)"
+                srcset="/project-pixel-vikings/assets/pic2@1x-49df2a43.webp 1x, /project-pixel-vikings/assets/pic2@2x-dd56c83d.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/bestsellers/pic2@1x.jpeg 1x,
+                  ./images/mobile/bestsellers/pic2@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="./images/desktop/bestsellers/pic2@1x.jpeg"
+                alt="interier Summer"
+              />
             </picture>
-                <p class="bestseller-Text">The industrial accent chair</p>
+            <p class="bestseller-Text">The Cozy Lounge Chair</p>
+            <p class="bestseller-Cost">230 &#36;</p>
+          </li>
+          <li class="half-width">
+            <picture class="bestseller-picture">
+              <!-- Desktop screen -->
+              <source
+                media="(min-width: 1440px)"
+                srcset="data:image/webp;base64,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 1x, /project-pixel-vikings/assets/pic3@2x-3509563d.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./images/desktop/bestsellers/pic3@1x.jpeg 1x,
+                  ./images/desktop/bestsellers/pic3@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <!-- Tablet screen -->
+              <source
+                media="(min-width: 768px)"
+                srcset="/project-pixel-vikings/assets/pic3@1x-fb97b188.webp 1x, /project-pixel-vikings/assets/pic3@2x-0eed3cdc.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/tablet/bestsellers/pic3@1x.jpeg 1x,
+                  ./images/tablet/bestsellers/pic3@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <!-- Mobile screen -->
+              <source
+                media="(max-width: 767px)"
+                srcset="/project-pixel-vikings/assets/pic3@1x-e0bc0f6b.webp 1x, /project-pixel-vikings/assets/pic3@2x-eb3375ce.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/bestsellers/pic3@1x.jpeg 1x,
+                  ./images/mobile/bestsellers/pic3@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="./images/desktop/bestsellers/pic3@1x.jpeg"
+                alt="interier minimal"
+              />
+            </picture>
+            <p class="bestseller-Text">The industrial accent chair</p>
             <p class="bestseller-Cost">250 &#36;</p>
-        </li>
-
-        <li class="card-Li card-Four half-width ">
-        <picture>
-            <source srcset="../images/desktop/bestsellers/pic4@1x.webp 1x, ../images/desktop/bestsellers/pic4@2x.webp 1x" type="image/webp" />
-            <source srcset="../images/desktop/bestsellers/pic4@2x.jpeg 2x, ../images/desktop/bestsellers/pic4@2x.jpeg 2x" type="image/jpeg" />
-            <img src="../images/desktop/bestsellers/pic4@1x.jpg" alt="interier minimal">
-        </picture>
-                <p class="bestseller-Text">The industrial accent chair</p>
+          </li>
+          <li class="half-width">
+            <picture class="bestseller-picture">
+              <!-- Desktop screen -->
+              <source
+                media="(min-width: 1440px)"
+                srcset="/project-pixel-vikings/assets/pic4@1x-4191ff50.webp 1x, /project-pixel-vikings/assets/pic4@2x-5900d2aa.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./images/desktop/bestsellers/pic4@1x.jpeg 1x,
+                  ./images/desktop/bestsellers/pic4@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <!-- Tablet screen -->
+              <source
+                media="(min-width: 768px)"
+                srcset="/project-pixel-vikings/assets/pic4@1x-63a30490.webp 1x, /project-pixel-vikings/assets/pic4@2x-28ab377d.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/tablet/bestsellers/pic4@1x.jpeg 1x,
+                  ./images/tablet/bestsellers/pic4@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <!-- Mobile screen -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/bestsellers/pic4@1x.webp 1x,
+                  ./images/mobile/bestsellers/pic4@2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/bestsellers/pic4@1x.jpeg 1x,
+                  ./images/mobile/bestsellers/pic4@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="./images/desktop/bestsellers/pic4@1x.jpeg"
+                alt="Sofa and pictures"
+              />
+            </picture>
+            <p class="bestseller-Text">The industrial accent chair</p>
             <p class="bestseller-Cost">300 &#36;</p>
-        </li>
-
-        <li class="card-Li card-Five half-width ">
-        <picture>
-            <source srcset="../images/desktop/bestsellers/pic5@1x.webp 1x, ../images/desktop/bestsellers/pic5@1x.jpeg 1x" type="image/webp" />
-            <source srcset="../images/desktop/bestsellers/pic5@2x.jpeg 2x, ../images/desktop/bestsellers/pic5@2x.jpeg 2x" type="image/jpeg" />
-            <img src="../images/desktop/bestsellers/pic5@1x.jpg" alt="interier minimal">
-        </picture>
-                <p class="bestseller-Text">The industrial accent chair</p>
+          </li>
+          <li class="half-width">
+            <picture class="bestseller-picture">
+              <!-- Desktop screen -->
+              <source
+                media="(min-width: 1440px)"
+                srcset="data:image/webp;base64,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 1x, /project-pixel-vikings/assets/pic5@2x-bfc9ce4d.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./images/desktop/bestsellers/pic5@1x.jpeg 1x,
+                  ./images/desktop/bestsellers/pic5@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <!-- Tablet screen -->
+              <source
+                media="(min-width: 768px)"
+                srcset="data:image/webp;base64,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 1x, /project-pixel-vikings/assets/pic5@2x-49e82acf.webp 2x"
+                type="image/webp"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/tablet/bestsellers/pic5@1x.jpeg 1x,
+                  ./images/tablet/bestsellers/pic5@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <!-- Mobile screen -->
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/bestsellers/pic5@1x.webp 1x,
+                  ./images/mobile/bestsellers/pic5@2x.webp 2x
+                "
+                type="image/webp"
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/bestsellers/pic5@1x.jpeg 1x,
+                  ./images/mobile/bestsellers/pic5@2x.jpeg 2x
+                "
+                type="image/jpg"
+              />
+              <img src="./images/desktop/bestsellers/pic5@1x.jpeg" alt="Sofa" />
+            </picture>
+            <p class="bestseller-Text">The industrial accent chair</p>
             <p class="bestseller-Cost">650 &#36;</p>
-        </li> 
-            
+          </li>
         </ul>
-
-
-   
-
-    </div>
-
+      </li>
+    </ul>
+  </div>
 </section>
 
       <section class="clients" id="reviews">
@@ -757,14 +960,14 @@
     <script>
       var scroll = new SmoothScroll('a[href*="#"]');
     </script>
-    <script src="./js/animation-header.js"></script>
+    <script src="../src/js/animation-header.js"></script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="./js/mobile-menu.js"></script>
+    <script defer src="../src/js/mobile-menu.js"></script>
     
   </body>
 </html>
