@@ -1,47 +1,47 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    min-width: 320px;
-    max-width: 375px;
-    padding: 0 16px;
-    margin: 0 auto;
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-        padding: 0 60px;
-    }
+  .container {
+    max-width: 1440px;
+    padding: 0 60px;
+  }
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .button {
-    background-color: var(--blue-font);
-    padding: 12px 65px;
-    border: transparent;
-    color: var(--white-color);
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
+  display: block;
+  background-color: var(--blue-font);
+  border: transparent;
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
 }
