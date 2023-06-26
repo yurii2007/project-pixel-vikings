@@ -99,6 +99,7 @@
     line-height: 1.4;
 }
 
+/* _________________________TABLET________________________ */
 
 @media screen and (min-width: 768px){
   .client-comment{
@@ -106,6 +107,7 @@
     line-height: 1.5;
   }
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 1439.9px){
     .client-3{
@@ -121,6 +123,9 @@
     }
 
 }
+
+
+/* ______________________________DESKTOP________________________ */
 
 @media screen and (min-width: 1440px){
      
