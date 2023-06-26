@@ -28,8 +28,7 @@
 
     color: var(--blue-font, #0A224A);
     font-size: 28px;
-    font-family: 'Roboto';
-    line-height: 42px;
+    line-height: 1.5;
     text-transform: uppercase;
 }
 
@@ -37,9 +36,8 @@
     color: var(--blue-font, #0A224A);
     text-align: right;
     font-size: 16px;
-    font-family: 'Roboto';
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .price-list-item:hover .products-name {
@@ -67,10 +65,10 @@
 @media screen and (min-width: 768px) and (max-width: 1439px) {
     .products-name {
         font-size: 32px;
-        line-height: 45px
+        line-height: 1.4x
     }
     .products-cost {
         font-size: 18px;
-        line-height: 27px;
+        line-height: 1.5px;
     }
 }
