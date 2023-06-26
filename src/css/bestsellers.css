@@ -1,238 +1,109 @@
-
-/* M_O_B_I_L_E */
-/* M_O_B_I_L_E */
-
-
-
-
-    /* SECTION */
-    .bestseller-Section{
-    max-width: 375px;
-    margin: 0 auto;
+.bestseller {
+    padding-bottom: 64px;
 }
 
-
-/* CONTAINER */
-.container-Bestseller{
-    padding: 0 16px;
+@media screen and (min-width: 768px) {
+    .bestseller {
+        padding-bottom: 100px;
+    }
 }
 
-
-/* TITLE = H_3*/
-.bestseller-Title{
+.bestseller-title {
+    margin-bottom: 20px;
     text-transform: uppercase;
     text-align: center;
     color: var(--blue-font, #0A224A);
     font-size: 28px;
-    font-family: Roboto;
-    font-weight: normal; 
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 768px) {
+    .bestseller-title {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cardsul {
+        display: flex;
+        gap: 24px;
+        max-width: 1096px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card-li:first-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .card-li:first-child {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card-li {
+        min-width: 536px;
+    }
+}
+
+.bestseller-picture {
+    margin-bottom: 15px;
+}
+
+.bestseller-text {
+    color: var(--blue-font, #0A224A);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.bestseller-cost {
+    color: var(--blue-font, #0A224A);
+    font-size: 16px;
+    font-weight: 700;
     line-height: 1.5;
 }
-/* Начало списка карточек */
-.cardsUl {
-    row-gap: 10px;
-}
-/* КАРТОЧКА */
-.card-Li {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    row-gap: 15px;
-    
-    
-}
 
-
-
-/* ТЕКСТ И ЦЕНА В КАРТОЧКЕ --------------------- */
-.bestseller-Text {
-        color: var(--blue-font, #0A224A);
-        font-size: 16px;
-        font-family: Roboto;
-        line-height: 1.5;
-}
-.bestseller-Cost {
-        color: var(--blue-font, #0A224A);
-        font-size: 16px;
-        font-family: Roboto;
-        font-weight: 700;
-        line-height: 1.5;
-}
-/* ТЕКСТ И ЦЕНА В КАРТОЧКЕ_________________________ */
-
-
-/* ИЗОБРАЖЕНИЕ */
-img{
-    width: 100%;
-}
-
-
-
-
-
-
-@media screen and (max-width:767px){
-
-.card-Four {
-     display: none;
-}
-/* КАРТОЧКА 5 (отдельный класс) */
-.card-Five {
-     display: none;
-}
-}
-
-
-
-
-
-@media screen and (min-width:768px) and (max-width:1439px){
-
-            /* SECTION */
-    .bestseller-Section{
-        max-width: 768px;
-        margin: 0 auto;
-    
-    }
-
-    /* CONTAINER */
-    .container-Bestseller {
-        padding: 0 16px;
-    }
-
-
-    .bestseller-Title {
-        color: var(--blue-font, #0A224A);
-        font-size: 32px;
-        font-family: Roboto;
-        line-height: 1.5;
-        text-transform: uppercase;
-        font-weight: normal; 
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .cardsUl {
+@media screen and (min-width:768px) {
+    .sector-position {
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-        row-gap: 32px;
+        gap: 32px;
     }
-   
-    
-    .bestseller-Text {
-        margin-top: 15px;
-        color: var(--blue-font, #0A224A);
-        font-size: 18px;
-        font-family: Roboto;
-        line-height: 1.5;
+}
 
+@media screen and (min-width: 1440px) {
+    .sector-position {
+        row-gap: 30px;
+        column-gap: 20px;
     }
-    .bestseller-Cost {
-        margin-top: 10px;
-        color: var(--blue-font, #0A224A);
-        font-size: 18px;
-        font-family: Roboto;
-        font-weight: 700;
-        line-height: 1.5;
-    }
+}
 
-
-    .sector_position{
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        row-gap:32px ;
-    }
-    
-
-    .card-One {padding-bottom:0;
-    }
+@media screen and (min-width:768px) {
     .half-width {
-        width: calc(50% - 35px);
+        width: calc((100% - 32px) / 2);
     }
-    .card-Two { 
-        padding-bottom: 5px;
-    }
-    .card-Four {
-         display: inline-block;
-    }
-
-    /* КАРТОЧКА 5 (отдельный класс) */
-    .card-Five {
-         display: inline-block;
-    }
-    .full-width {width: 100%;
-    }
-     
 }
 
-
-
-
-
-
-
-
-
-@media screen and (min-width:1440px)  {
-
-    .bestseller-Section {
-        max-width: 1440px;
-        margin: 0 auto;
+@media screen and (min-width: 1440px) {
+    .half-width {
+        width: calc((100% - 20px) / 2);
     }
-    .container-Bestseller {
-        padding: 0 175px;
-    }
-    .bestseller-Title {
-        line-height: 1.4;
+}
+
+@media screen and (max-width: 767px) {
+    .half-width:first-child {
         margin-bottom: 30px;
     }
-    .cards-Ul {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: flex-start;
-        justify-content: space-around;
-        column-gap: 24px;
-    }
+}
 
-
-     .sector_position{
-        display: inline-flex;
-        flex-wrap: wrap;     
-    }    
-        
-    .cardsUl{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
+@media screen and (max-width: 767px) {
+    .half-width:nth-child(n + 3) {
+        display: none;
     }
-
-    }
-.bestseller-Text {
-        color: var(--blue-font, #0A224A);
-        font-size: 18px;
-        font-family: Roboto;
-        line-height: 1.5;
-    }
-    .bestseller-Cost {
-        color: var(--blue-font, #0A224A);
-        font-size: 18px;
-        font-family: Roboto;
-        font-weight: 700;
-        line-height: 27px;
-    }
-    
-    .full-width {
-        display: flex;
-        padding-bottom: 0px;
-        flex-direction: column;
-       width: 100%;
-        margin-right: 14px;
-    }
-
+}
