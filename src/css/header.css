@@ -78,77 +78,76 @@
 }
 
 .navigation-link {
-	display: block;
-	position: relative;
-	overflow-y: hidden;
+  display: block;
+  position: relative;
+  overflow-y: hidden;
   width: 100%;
 }
 
 .navigation-link span {
-	position: relative;
-	transition: 0.3s;
+  position: relative;
+  transition: 0.3s;
 }
 
 .navigation-link span .out {
-	display: inline-flex;
+  display: inline-flex;
 }
 
 .navigation-link::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 0;
-	height: 2px;
-	background-color: var(--blue-font);
-	transition: width 1s, left 1s;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--blue-font);
+  transition: width 1s, left 1s;
 }
 
 .navigation-link.footer::after {
-  content: "";
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 0;
-	height: 2px;
-	background-color: var(--white-color);
-	transition: width 1s, left 1s;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--white-color);
+  transition: width 1s, left 1s;
 }
 
-
 .navigation-link:hover::after {
-	left: 0;
-	width: 100%;
+  left: 0;
+  width: 100%;
 }
 
 .navigation-link:hover span .out {
-	transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 
 .navigation-link span .in {
-	position: absolute;
-	left: 0;
-	transform: translateY(100%);
+  position: absolute;
+  left: 0;
+  transform: translateY(100%);
 }
 
 .navigation-link:hover span .in {
-	transform: translateY(0);
+  transform: translateY(0);
 }
 
 .is-active {
-	position: relative;
+  position: relative;
 }
 
 .is-active::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 100%;
-	height: 2px;
-	transition: 0.5s;
-	background-color: var(--white-color);
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 2px;
+  transition: 0.5s;
+  background-color: var(--white-color);
 }
 
 /**
