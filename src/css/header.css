@@ -32,12 +32,6 @@
   fill: var(--blue-font);
 }
 
-@media screen and (min-width: 768px) {
-  .logo {
-    width: 127px;
-  }
-}
-
 .burger-mobile {
   width: 32px;
   height: 32px;
